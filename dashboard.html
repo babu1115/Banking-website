@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}</h1>
+    <p>Balance: {{ balance }}</p>
+    <form method="POST">
+        Deposit/Withdraw Amount: <input type="number" name="amount" required><br>
+        <button name="deposit" type="submit">Deposit</button>
+        <button name="withdraw" type="submit">Withdraw</button>
+    </form>
+    <a href="/">Logout</a>
+</body>
+</html>
